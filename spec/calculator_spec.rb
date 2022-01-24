@@ -38,7 +38,7 @@ describe Calculator do
 
     # testing that we can subtract an array of numbers
     it "can subtract all numbers in a given array" do
-      diff = @calc.reduce_diff(20, [10, 2, 2, 2])
+      diff = @calc.reduce_diff([20, 10, 2, 2, 2])
       expect(diff).to eql(4)
     end
   end
